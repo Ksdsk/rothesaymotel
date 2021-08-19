@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rothesay Motel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+<body>
+    <header>
+      <!-- Notification -->
+      <div class="notification bg-warning text-dark px-4 text-center">
+        <span>For the safety of all, we have temporarily stopped the cleaning services during the guest's stay. If you have any questions, please </span><span><a href="#">contact us</a></span>
+      </div>
+      <!-- Navbar -->
+      <nav class="navbar p-4 navbar-expand-lg navbar-dark bg-none">
+        <div class="container-fluid">
+          <h1><a class="navbar-brand" href="#">Rothesay Motel</a></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Attractions</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Our Rooms</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Nearby Us</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Directions</a>
+              </li>
+              <button type="button" class="btn btn-outline-light">Request Your Stay</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="xycenter text-center">
+        <p class="heading-bigtext">Welcome to Rothesay</p>
+        <p class="heading-subtext">80 Hampton Road, Rothesay, New Brunswick E2E2P5</p>
+      </div>
+      <svg class="xycenter" id="down-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(255,255,255,10)" class="bi bi-chevron-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </header>
+    <div class="container py-4">
+      <div class="row text-center pt-4">
+        <div data-aos="zoom-out-down" data-aos-duration="300" class="col-md" onclick="window.open('https://www.google.com')">
+          <div id="gallery" class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+            <h2 class="">Gallery</h2>
+          </div>
+        </div>
+        <div data-aos="zoom-out-down" data-aos-duration="600" class="col-md">
+          <div id="attractions" class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+            <h2 class="">Attractions</h2>
+          </div>
+        </div>
+        <div data-aos="zoom-out-down" data-aos-duration="900" class="col-md">
+          <div id="rooms" class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
+            <h2 class="">Rooms</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div data-aos="fade-right" data-aos-duration="3000">
+            <h2>Our Little (Big) History</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div data-aos="fade-zoom-in" data-aos-duration="3000">
+            <p class="lh-lg"><span class="font-italic">Rothesay Motel</span> formerly Ye Comfy Cabins, began in 1920 with the construction of the cabins by the Breen family who ran the business until 1971. At the time, 
+              the Hampton Highway was the main road to Moncton. It was taken over by the Gordon family, who relocated from Saint John, until 1996 when Bob and Erin Black became 
+              the owners of Ye Comfy Cabins until 2004. The McGuires ran the cabins for six years and then demolished all but three to build the nine unit motel. The property 
+              reserved two cabins and the two-unit old barn which serve as a reminder of the business's rich history.  Current owners, Kevin (K.K.) Kang and Sunmi Jung took the 
+              motel and revolutionized the idea of a motel. The rooms were reformed to give a taste of modernness and comfort while preserving its past exterior.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-4">
+      <h1 class="text-center pb-4">See what our guests are saying!</h1>
+      <div class="row">
+        <div class="col-md-4 pb-4">
+          <img class="mx-auto d-block img-fluid p-4" src="img/expedia.png" alt="Expedia">
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Lovely Location</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Verified traveller</h6>
+              <p class="card-text">Room was neat and very clean. Nice location and quiet. Located back from the main road, trees on either side. Friendly reception Would definitely stay here again.</p>
+            </div>
+          </div>
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">5/5 Excellent</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Verified traveller</h6>
+              <p class="card-text">Stayed for quick access to airport was very pleased with the accommodation.</p>
+            </div>
+          </div>
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">A Week in Rothesay</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Scott</h6>
+              <p class="card-text">The room was very nice. It was very clean, quiet, comfortable, and spacious. The location was perfect right on a main thorough fare with shopping not far down the street. The parking was convenient and safe.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-4">
+          <img class="mx-auto d-block img-fluid p-4" src="img/bookingdotcom.png" alt="Expedia">
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Exceptional</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Kendrick</h6>
+              <p class="card-text">Courteous, helpful staff, clean, comfortable rooms with great amenities, and situated close to shops and restaurants. We very much enjoyed our stay.</p>
+            </div>
+          </div>
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Perfect spot for the night</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Gillian</h6>
+              <p class="card-text">The manager could not have been more kind and helpful. The room was large, bed comfortable, bathroom clean and well appointed. What more culd be asked of a motel for the night?</p>
+            </div>
+          </div>
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Cozy cottage</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Darren</h6>
+              <p class="card-text">Very friendly staff, room was spotless. The cottage had a lot of charm, would stay there again.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-4 mb-3">
+          <img class="mx-auto d-block img-fluid p-4" src="img/google.png" alt="Expedia">
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Had an amazing wedding!</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Bethany W.</h6>
+              <p class="card-text">We recently stayed at the Rothesay Motel while in town for a wedding, and we thoroughly enjoyed our stay. The small cabin was quaint with its 100 year old charm, exceptionally clean and the bed was very comfortable. Kevin provided top notch hospitality and was pleasant to deal with throughout our stay. We hope to be back again some day!</p>
+            </div>
+          </div>
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Bravo!</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Robert B.</h6>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <p class="card-text">Nice and compact all new look and clean. Bravo!</p>
+            </div>
+          </div>
+          <div class="card mb-4" data-aos="flip-left" data-aos-duration="1000">
+            <div class="card-body">
+              <h5 class="card-title">Very comfortable every time</h5>
+              <div class="d-flex justify-content-start pb-2">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+                <img width="16px" height="16px" src="img/star.svg" alt="">
+              </div>
+              <h6 class="card-subtitle mb-2 text-muted">Isaac W.</h6>
+              <p class="card-text">Very comfortable and the owners are kind and enjoyable. I stay here everytime I'm in town.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="mx-auto d-block btn btn-outline-primary">Request Your Stay Now</button>
+    </div>
+    <div class="container py-4">
+      <h1 class="text-center pb-4">Ready to learn more?</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-center">Our address: 80 Hampton Road, Rothesay, NB E2E 2P5</p>
+          <div class="ratio ratio-4x3">
+            <iframe
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA8vAWIh2O9750G1Yehy6mN_d2PQEh8kjg&&q=Rothesay+Motel,Rothesay+Canada" allowfullscreen>
+          </iframe>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p class="text-center">See our <a href="">gallery</a>/<a href="">our rooms</a></p>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h3 class="text-center text-light">Rothesay Motel</h3>
+      <div class="d-flex justify-content-center mt-3">
+        <a class="mx-3" href="">Policy</a>
+        <a class="mx-3" href="">FAQ</a>
+        <a class="mx-3" href="">Request Your Stay</a>
+        <a class="mx-3" href="">Contact Us</a>
+      </div>
+      <p></p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
