@@ -64,14 +64,13 @@ header {
     background-size: 150%;
 }
 
-
 #down-arrow {
-    position: relative;
+    position: absolute;
     animation-name: down-arrow;
     animation-duration: 0.7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    margin-top: 35vh;
+    margin-top: 60vh;
 }
 
 @keyframes down-arrow {
