@@ -1,5 +1,5 @@
 header {
-    background:linear-gradient( #00000060,#00000060 ), url(../img/pexels-rachel-claire-4819658.jpg);
+    background:linear-gradient( #00000060,#00000000 ), url(../img/main-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -27,7 +27,7 @@ header {
 }
 
 #gallery {
-    background:linear-gradient( #00000060,#00000060 ),  url('../img/gallery.jpeg');
+    background:linear-gradient( #00000030,#00000030 ),  url('../img/gallery.png');
     background-size: 100%;
     background-position: center;
     transition-property: background-size;
@@ -52,7 +52,8 @@ header {
 }
 
 #rooms {
-    background:linear-gradient( #00000060,#00000060 ),  url('../img/room.jpeg');
+    background:linear-gradient( #00000030,#00000030 ),  url('../img/twodouble/3.jpg');
+    /* background:linear-gradient( #00000060,#00000060 ),  url('../img/king/KakaoTalk_20210823_215350651_03.jpg'); */
     background-size: 100%;
     background-position: center;
     transition-property: background-size;
@@ -71,6 +72,11 @@ header {
     animation-iteration-count: infinite;
     animation-direction: alternate;
     margin-top: 60vh;
+}
+
+.carousel-item {
+    object-fit: cover;
+    height: 500px;
 }
 
 @keyframes down-arrow {

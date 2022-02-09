@@ -11,63 +11,23 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <header>
-      <!-- Notification -->
-      <div class="notification bg-warning text-dark px-4 text-center">
-        <span>For the safety of all, we have temporarily stopped the cleaning services during the guest's stay. If you have any questions, please </span><span><a href="#">contact us</a></span>
-      </div>
-      <!-- Navbar -->
-      <nav class="navbar p-4 navbar-expand-lg navbar-dark bg-none">
-        <div class="container-fluid">
-          <h1><a class="navbar-brand" href="#">Rothesay Motel</a></h1>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item me-3">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" href="#">Attractions</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" href="#">Our Rooms</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" href="#">Nearby Us</a>
-              </li>
-              <li class="nav-item me-3">
-                <a class="nav-link" href="#">Directions</a>
-              </li>
-              <button type="button" class="btn btn-outline-light">Request Your Stay</button>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Central text and arrow -->
-      <div class="xycenter text-center">
-        <p class="heading-bigtext">Welcome to Rothesay</p>
-        <p class="heading-subtext">80 Hampton Road, Rothesay, New Brunswick E2E2P5</p>
-      </div>
-      <svg class="xycenter" id="down-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(255,255,255,10)" class="bi bi-chevron-down" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
-      </svg>
-    </header>
+    <?php
+      include("_includes/mainheader.php");
+    ?>
     <!-- Three sets of quick image links -->
     <div class="container my-4">
       <div class="row text-center pt-4">
-        <div data-aos="zoom-in" data-aos-duration="300" class="col-lg-4" onclick="window.open('https://www.google.com')">
+        <div data-aos="zoom-in" data-aos-duration="300" class="col-lg-4" onclick="window.location.href='gallery'">
           <div id="gallery" class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
             <h2 class="">Gallery</h2>
           </div>
         </div>
-        <div data-aos="zoom-in" data-aos-duration="600" class="col-lg-4">
+        <div data-aos="zoom-in" data-aos-duration="600" class="col-lg-4" onclick="window.location.href='attractions'">
           <div id="attractions" class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
             <h2 class="">Attractions</h2>
           </div>
         </div>
-        <div data-aos="zoom-in" data-aos-duration="900" class="col-lg-4">
+        <div data-aos="zoom-in" data-aos-duration="900" class="col-lg-4" onclick="window.location.href='our-rooms'">
           <div id="rooms" class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white">
             <h2 class="">Rooms</h2>
           </div>
@@ -241,24 +201,57 @@
       <div class="row">
         <div class="col-lg-6 py-4">
           <p class="text-center">Our address: 80 Hampton Road, Rothesay, NB E2E 2P5</p>
-          <div class="ratio ratio-4x3">
-            <iframe
+          <div class="" style="min-height: 500px">
+            <iframe width="100%" height="500"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA8vAWIh2O9750G1Yehy6mN_d2PQEh8kjg&&q=Rothesay+Motel,Rothesay+Canada" allowfullscreen>
-          </iframe>
+            </iframe>
           </div>
         </div>
         <div class="col-lg-6 py-4">
-          <p class="text-center">See our <a href="">gallery</a>/<a href="">our rooms</a></p>
+          <p class="text-center">See our <a href="gallery">gallery</a>/<a href="our-rooms">our rooms</a></p>
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="...">
+                <img src="img/outside/KakaoTalk_20210823_215348910_02.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
               </div>
               <div class="carousel-item">
-                <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="...">
+                <img src="img/outside/KakaoTalk_20210823_215348910_03.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
               </div>
               <div class="carousel-item">
-                <img src="https://via.placeholder.com/400x300" class="d-block w-100" alt="...">
+                <img src="img/outside/KakaoTalk_20210823_215348910_04.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_05.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_06.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_07.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_08.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_09.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_10.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_11.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_12.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>              
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_13.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_14.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="img/outside/KakaoTalk_20210823_215348910_15.jpg" class="w-100 img-fluid shadow-1-strong rounded mb-4" alt="">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -273,16 +266,11 @@
         </div>
       </div>
     </div>
+
     <!-- Footer -->
-    <footer>
-      <h3 class="text-center text-light">Rothesay Motel</h3>
-      <div class="d-flex justify-content-center mt-3">
-        <a class="mx-3" href="">Policy</a>
-        <a class="mx-3" href="">FAQ</a>
-        <a class="mx-3" href="">Request Your Stay</a>
-        <a class="mx-3" href="">Contact Us</a>
-      </div>
-    </footer>
+    <?php
+      include("_includes/footer.php");
+    ?>
 
     <!-- Import AoS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

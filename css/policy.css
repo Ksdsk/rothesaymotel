@@ -1,9 +1,9 @@
 header {
-    background:linear-gradient( #00000060,#00000060 ), url(../img/outside/KakaoTalk_20210823_215348910_05.jpg);
+    background:linear-gradient( #00000060,#00000060 ), url(../img/abstract1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70vh;
-    background-color: #00000050
+    background-color: #00000050;
 }
 
 .xycenter {
@@ -20,7 +20,7 @@ header {
     font-weight: 200;
 }
 .heading-bigtext::before {
-    content: "Gallery";
+    content: "Policy";
     color: white;
     font-size: 40px;
     font-weight: 600;

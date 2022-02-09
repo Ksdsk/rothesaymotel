@@ -1,9 +1,10 @@
 header {
-    background:linear-gradient( #00000060,#00000060 ), url(../img/outside/KakaoTalk_20210823_215348910_05.jpg);
+    background:linear-gradient( #00000060,#00000060 ), url(../img/Saint_John_City_Market_\(21714657379\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 70vh;
-    background-color: #00000050
+    background-color: #00000050;
 }
 
 .xycenter {
@@ -20,9 +21,8 @@ header {
     font-weight: 200;
 }
 .heading-bigtext::before {
-    content: "Gallery";
+    content: "Nearby Us";
     color: white;
     font-size: 40px;
     font-weight: 600;
 }
-
